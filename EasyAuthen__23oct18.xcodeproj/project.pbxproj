@@ -12,6 +12,7 @@
 		C4A2D2B4217EDF720025E6DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A2D2B2217EDF720025E6DA /* Main.storyboard */; };
 		C4A2D2B6217EDF730025E6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A2D2B5217EDF730025E6DA /* Assets.xcassets */; };
 		C4A2D2B9217EDF730025E6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A2D2B7217EDF730025E6DA /* LaunchScreen.storyboard */; };
+		C4A2D2C1217F0A2D0025E6DA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2D2C0217F0A2D0025E6DA /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C4A2D2B5217EDF730025E6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4A2D2B8217EDF730025E6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4A2D2BA217EDF730025E6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A2D2C0217F0A2D0025E6DA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C4A2D2AE217EDF720025E6DA /* AppDelegate.swift */,
 				C4A2D2B0217EDF720025E6DA /* ViewController.swift */,
 				C4A2D2B2217EDF720025E6DA /* Main.storyboard */,
+				C4A2D2C0217F0A2D0025E6DA /* SignUpViewController.swift */,
 				C4A2D2B5217EDF730025E6DA /* Assets.xcassets */,
 				C4A2D2B7217EDF730025E6DA /* LaunchScreen.storyboard */,
 				C4A2D2BA217EDF730025E6DA /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A2D2C1217F0A2D0025E6DA /* SignUpViewController.swift in Sources */,
 				C4A2D2B1217EDF720025E6DA /* ViewController.swift in Sources */,
 				C4A2D2AF217EDF720025E6DA /* AppDelegate.swift in Sources */,
 			);
