@@ -67,18 +67,30 @@ class SignUpViewController: UIViewController {
                     let resultString: String = canReadAbleData! as String
                     print("resultStrin ==> \(resultString)")
                     
+//                    Check Result
+                    if (Bool(resultString)!) {
+//                        Back To Main
+                        
+                        DispatchQueue.main.async {
+                            self.backToMain()
+                        }
+                        
+                    } else {
+                        DispatchQueue.main.async {
+                            self.myAlert(titleString: "Cannot to Upload", messageString: "Please Try Again")
+                        }
+                    }
                     
                 }   // if2
             }   // if1
         }   // task
         task.resume()
         
-        
-        
-        
-        
-        
     }   // uploadToServer
+    
+    func backToMain() -> Void {
+        performSegue(withIdentifier: "BackToMain", sender: self)
+    }
     
     
     

@@ -127,7 +127,7 @@
                                     <navigationItem title="Sign Up" id="N9b-bh-iOD">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="3vz-EZ-Hlp">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="6in-xK-WDN"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="BackToMain" id="6in-xK-WDN"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" image="Cloud" id="B8a-2c-Wo5">
