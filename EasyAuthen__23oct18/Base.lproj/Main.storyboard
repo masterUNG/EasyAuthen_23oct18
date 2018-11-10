@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EasyAuthen__23oct18" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Main" id="BYZ-38-t0r" customClass="ViewController" customModule="EasyAuthen__23oct18" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="133.25892857142856"/>
         </scene>
-        <!--Sign Up View Controller-->
+        <!--SignUp-->
         <scene sceneID="vUw-ps-nCI">
             <objects>
-                <viewController id="oxc-re-6O6" customClass="SignUpViewController" customModule="EasyAuthen__23oct18" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="SignUp" id="oxc-re-6O6" customClass="SignUpViewController" customModule="EasyAuthen__23oct18" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mki-nU-Gef">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

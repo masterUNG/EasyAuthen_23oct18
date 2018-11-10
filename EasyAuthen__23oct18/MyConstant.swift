@@ -15,6 +15,12 @@ class MyConstant {
     let preUrlString: String = "https://www.androidthai.in.th/kan/addUserMaster.php?isAdd=true&Name="
     let columnUserString: String = "&User="
     let columnPasswordString: String = "&Password="
+    let preUrlGetUser: String = "https://www.androidthai.in.th/kan/getDataWhereUserMaster.php?isAdd=true&User="
+    
+    func findUrlGetUser(userString: String) ->  String {
+        return preUrlGetUser + userString
+    }
+    
     
     
     func findUrlAddUser(nameString: String, userString: String, passwordString: String) -> String {
