@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C427FAE92196906C00B362C9 /* MyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427FAE82196906C00B362C9 /* MyConstant.swift */; };
 		C4A2D2AF217EDF720025E6DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2D2AE217EDF720025E6DA /* AppDelegate.swift */; };
 		C4A2D2B1217EDF720025E6DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2D2B0217EDF720025E6DA /* ViewController.swift */; };
 		C4A2D2B4217EDF720025E6DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A2D2B2217EDF720025E6DA /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C427FAE82196906C00B362C9 /* MyConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConstant.swift; sourceTree = "<group>"; };
 		C4A2D2AB217EDF720025E6DA /* EasyAuthen__23oct18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAuthen__23oct18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A2D2AE217EDF720025E6DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4A2D2B0217EDF720025E6DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				C4A2D2B0217EDF720025E6DA /* ViewController.swift */,
 				C4A2D2B2217EDF720025E6DA /* Main.storyboard */,
 				C4A2D2C0217F0A2D0025E6DA /* SignUpViewController.swift */,
+				C427FAE82196906C00B362C9 /* MyConstant.swift */,
 				C4A2D2B5217EDF730025E6DA /* Assets.xcassets */,
 				C4A2D2B7217EDF730025E6DA /* LaunchScreen.storyboard */,
 				C4A2D2BA217EDF730025E6DA /* Info.plist */,
@@ -141,6 +144,7 @@
 				C4A2D2C1217F0A2D0025E6DA /* SignUpViewController.swift in Sources */,
 				C4A2D2B1217EDF720025E6DA /* ViewController.swift in Sources */,
 				C4A2D2AF217EDF720025E6DA /* AppDelegate.swift in Sources */,
+				C427FAE92196906C00B362C9 /* MyConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
