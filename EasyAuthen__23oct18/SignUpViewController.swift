@@ -41,12 +41,40 @@ class SignUpViewController: UIViewController {
             myAlert(titleString: myConstant.titleHaveSpaceString, messageString: myConstant.messageHaveSpaceString)
         } else {
 //            Upload To Server
-            
+            uploadToServer(nameString: myNameString, userString: myUserString, passwordString: myPasswordString)
         }
         
     }   // cloudUpLoad Function
     
     func uploadToServer(nameString: String, userString: String, passwordString: String) -> Void {
+        
+        let urlString: String = myConstant.findUrlAddUser(nameString: nameString, userString: userString, passwordString: passwordString)
+        print("urlString ==> \(urlString)")
+        
+        let urlPHP = URL(string: urlString)
+        let request = NSMutableURLRequest(url: urlPHP!)
+        let task = URLSession.shared.dataTask(with: request as URLRequest) { (data, response, error) in
+            
+            if (error != nil) {
+                print("Cannot Upload")
+            } else {
+                
+                if let myReadData = data {
+                    
+                    let canReadAbleData = NSString(data: myReadData, encoding: String.Encoding.utf8.rawValue)
+                    print("canReadAbleData ==> \(String(describing: canReadAbleData))")
+                    
+                    let resultString: String = canReadAbleData! as String
+                    print("resultStrin ==> \(resultString)")
+                    
+                    
+                }   // if2
+            }   // if1
+        }   // task
+        task.resume()
+        
+        
+        
         
         
         
